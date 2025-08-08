@@ -1,22 +1,18 @@
-# BB-Dashboard
-
-Dashboard interattiva per analizzare KPI, spese e performance di Bertoldi Boats, sviluppata in **Python** con **Streamlit**.
-
-## Funzionalità principali
-- Analisi incassi per area, barca e tipologia di tour
-- Filtri avanzati per periodo, clienti e giornate
-- Visualizzazioni interattive con Plotly
-- Integrazione dati meteo
-- Gestione e classificazione spese
-
 ## Requisiti
-- Python 3.13
-- Streamlit
-- Pandas
-- Plotly
 
-## Installazione
-1. Clona il repository:
-   ```bash
-   git clone https://github.com/TUO-USERNAME/BB-Dashboard.git
-   cd BB-Dashboard
+- Python 3.10+ (consigliato)
+- Pip / venv
+
+## Setup locale
+
+```bash
+# clona il repo
+git clone https://github.com/<TUO-USERNAME>/BB-Dashboard.git
+cd BB-Dashboard
+
+# (opzionale) crea venv
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+
+# installa dipendenze
+pip install -r requirements.txt
